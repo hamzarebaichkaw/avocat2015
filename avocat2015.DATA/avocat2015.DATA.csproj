@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{724F82B2-8F6B-4DCC-BC2B-588AFAB91839}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>avocat2015.DATA</RootNamespace>
+    <AssemblyName>avocat2015.DATA</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\AGENDA.cs" />
+    <Compile Include="ORMDataModel1Code\AGENDA.Designer.cs">
+      <DependentUpon>AGENDA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\Appointments.cs" />
+    <Compile Include="ORMDataModel1Code\Appointments.Designer.cs">
+      <DependentUpon>Appointments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\Autre_reglement.cs" />
+    <Compile Include="ORMDataModel1Code\Autre_reglement.Designer.cs">
+      <DependentUpon>Autre_reglement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\AVOCAT_CONTRE.cs" />
+    <Compile Include="ORMDataModel1Code\AVOCAT_CONTRE.Designer.cs">
+      <DependentUpon>AVOCAT_CONTRE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\Client.cs" />
+    <Compile Include="ORMDataModel1Code\Client.Designer.cs">
+      <DependentUpon>Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\ClientContre_Kadhiya.cs" />
+    <Compile Include="ORMDataModel1Code\ClientContre_Kadhiya.Designer.cs">
+      <DependentUpon>ClientContre_Kadhiya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\Client_Contre.cs" />
+    <Compile Include="ORMDataModel1Code\Client_Contre.Designer.cs">
+      <DependentUpon>Client_Contre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\ConnectionHelper.cs" />
+    <Compile Include="ORMDataModel1Code\Conseil_Juridique.cs" />
+    <Compile Include="ORMDataModel1Code\Conseil_Juridique.Designer.cs">
+      <DependentUpon>Conseil_Juridique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\Contrat.cs" />
+    <Compile Include="ORMDataModel1Code\Contrat.Designer.cs">
+      <DependentUpon>Contrat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\DOCUMENT1.cs" />
+    <Compile Include="ORMDataModel1Code\DOCUMENT1.Designer.cs">
+      <DependentUpon>DOCUMENT1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\DOCUMENT2.cs" />
+    <Compile Include="ORMDataModel1Code\DOCUMENT2.Designer.cs">
+      <DependentUpon>DOCUMENT2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\DOCUMENT3.cs" />
+    <Compile Include="ORMDataModel1Code\DOCUMENT3.Designer.cs">
+      <DependentUpon>DOCUMENT3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\DOCUMENT4.cs" />
+    <Compile Include="ORMDataModel1Code\DOCUMENT4.Designer.cs">
+      <DependentUpon>DOCUMENT4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\Document_Jalsa.cs" />
+    <Compile Include="ORMDataModel1Code\Document_Jalsa.Designer.cs">
+      <DependentUpon>Document_Jalsa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\Document_ka.cs" />
+    <Compile Include="ORMDataModel1Code\Document_ka.Designer.cs">
+      <DependentUpon>Document_ka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\FormeJuridique.cs" />
+    <Compile Include="ORMDataModel1Code\FormeJuridique.Designer.cs">
+      <DependentUpon>FormeJuridique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\Jalsa.cs" />
+    <Compile Include="ORMDataModel1Code\Jalsa.Designer.cs">
+      <DependentUpon>Jalsa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\Justice_Port.cs" />
+    <Compile Include="ORMDataModel1Code\Justice_Port.Designer.cs">
+      <DependentUpon>Justice_Port.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\Kadhiya.cs" />
+    <Compile Include="ORMDataModel1Code\Kadhiya.Designer.cs">
+      <DependentUpon>Kadhiya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\kadhiya_Adel.cs" />
+    <Compile Include="ORMDataModel1Code\kadhiya_Adel.Designer.cs">
+      <DependentUpon>kadhiya_Adel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\kadhiya_avocat.cs" />
+    <Compile Include="ORMDataModel1Code\kadhiya_avocat.Designer.cs">
+      <DependentUpon>kadhiya_avocat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\Kadhiya_Justice.cs" />
+    <Compile Include="ORMDataModel1Code\Kadhiya_Justice.Designer.cs">
+      <DependentUpon>Kadhiya_Justice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\Ligne_Reglement.cs" />
+    <Compile Include="ORMDataModel1Code\Ligne_Reglement.Designer.cs">
+      <DependentUpon>Ligne_Reglement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\PALAIS_JUSTICE.cs" />
+    <Compile Include="ORMDataModel1Code\PALAIS_JUSTICE.Designer.cs">
+      <DependentUpon>PALAIS_JUSTICE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\Reglement_Avocat.cs" />
+    <Compile Include="ORMDataModel1Code\Reglement_Avocat.Designer.cs">
+      <DependentUpon>Reglement_Avocat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\Reglement_Client.cs" />
+    <Compile Include="ORMDataModel1Code\Reglement_Client.Designer.cs">
+      <DependentUpon>Reglement_Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\Reglement_Justice.cs" />
+    <Compile Include="ORMDataModel1Code\Reglement_Justice.Designer.cs">
+      <DependentUpon>Reglement_Justice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\Resources.cs" />
+    <Compile Include="ORMDataModel1Code\Resources.Designer.cs">
+      <DependentUpon>Resources.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\sysdiagrams.cs" />
+    <Compile Include="ORMDataModel1Code\sysdiagrams.Designer.cs">
+      <DependentUpon>sysdiagrams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\Travail_Divers.cs" />
+    <Compile Include="ORMDataModel1Code\Travail_Divers.Designer.cs">
+      <DependentUpon>Travail_Divers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\Travail_Justice.cs" />
+    <Compile Include="ORMDataModel1Code\Travail_Justice.Designer.cs">
+      <DependentUpon>Travail_Justice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\Type_Mise_en_œuvre.cs" />
+    <Compile Include="ORMDataModel1Code\Type_Mise_en_œuvre.Designer.cs">
+      <DependentUpon>Type_Mise_en_œuvre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\Type_Payement.cs" />
+    <Compile Include="ORMDataModel1Code\Type_Payement.Designer.cs">
+      <DependentUpon>Type_Payement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\users.cs" />
+    <Compile Include="ORMDataModel1Code\users.Designer.cs">
+      <DependentUpon>users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModel1Code\Ville.cs" />
+    <Compile Include="ORMDataModel1Code\Ville.Designer.cs">
+      <DependentUpon>Ville.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="ORMDataModel1.xpo">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ORMDataModel1.xpo.diagram">
+      <DependentUpon>ORMDataModel1.xpo</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

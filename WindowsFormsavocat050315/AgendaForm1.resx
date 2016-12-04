@@ -1,0 +1,902 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="DevExpress.XtraEditors.v12.2" name="DevExpress.XtraEditors.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="repositoryItemSpinEdit1.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v12.2">
+    <value>Default</value>
+  </data>
+  <data name="printPageSetupItem1.Caption" xml:space="preserve">
+    <value>اعداد الصفحة</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="schedulerControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>441, 334</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dateNavigator1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;printItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.PrintItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;appointmentsTableAdapter.Name" xml:space="preserve">
+    <value>appointmentsTableAdapter</value>
+  </data>
+  <data name="barDockControlRight.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="repositoryItemSpinEdit1.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;commonBar1.Name" xml:space="preserve">
+    <value>commonBar1</value>
+  </data>
+  <data name="dateNavigator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 193</value>
+  </data>
+  <data name="changeSnapToCellsUIItem1.Caption" xml:space="preserve">
+    <value>المفاجئة إلى خلايا</value>
+  </data>
+  <data name="&gt;&gt;editOccurrenceUICommandItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.EditOccurrenceUICommandItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="barDockControlLeft.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;switchToMonthViewItem1.Name" xml:space="preserve">
+    <value>switchToMonthViewItem1</value>
+  </data>
+  <data name="&gt;&gt;commonBar1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.CommonBar, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemDuration1.Name" xml:space="preserve">
+    <value>repositoryItemDuration1</value>
+  </data>
+  <data name="&gt;&gt;openScheduleItem1.Name" xml:space="preserve">
+    <value>openScheduleItem1</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="deleteOccurrenceItem1.Caption" xml:space="preserve">
+    <value>فتح حدوث</value>
+  </data>
+  <data name="barDockControlRight.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;editSeriesUICommandItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.EditSeriesUICommandItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barDockControlTop.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;printPageSetupItem1.Name" xml:space="preserve">
+    <value>printPageSetupItem1</value>
+  </data>
+  <data name="&gt;&gt;switchToWorkWeekViewItem1.Name" xml:space="preserve">
+    <value>switchToWorkWeekViewItem1</value>
+  </data>
+  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;deleteSeriesItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.DeleteSeriesItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barDockControlRight.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;newAppointmentItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.NewAppointmentItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barDockControlLeft.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dateNavigator1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;xpCollection1.Type" xml:space="preserve">
+    <value>DevExpress.Xpo.XPCollection, DevExpress.Xpo.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayoutPanel3" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="schedulerControl1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,55,50935,Percent,44,49065" /&gt;&lt;Rows Styles="Percent,51,99005" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;gotoTodayItem1.Name" xml:space="preserve">
+    <value>gotoTodayItem1</value>
+  </data>
+  <data name="&gt;&gt;navigateViewForwardItem1.Name" xml:space="preserve">
+    <value>navigateViewForwardItem1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemDuration1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.RepositoryItemDuration, DevExpress.XtraScheduler.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barDockControlBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>822, 0</value>
+  </data>
+  <data name="barDockControlRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>822, 62</value>
+  </data>
+  <data name="&gt;&gt;switchToTimelineViewItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.SwitchToTimelineViewItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;changeSnapToCellsUIItem1.Name" xml:space="preserve">
+    <value>changeSnapToCellsUIItem1</value>
+  </data>
+  <data name="repositoryItemDuration1.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dateNavigator1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.DateNavigator, DevExpress.XtraScheduler.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="editOccurrenceUICommandItem1.Caption" xml:space="preserve">
+    <value>فتح حدوث</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupByNoneItem1.Name" xml:space="preserve">
+    <value>groupByNoneItem1</value>
+  </data>
+  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;switchToDayViewItem1.Name" xml:space="preserve">
+    <value>switchToDayViewItem1</value>
+  </data>
+  <data name="&gt;&gt;switchToWorkWeekViewItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.SwitchToWorkWeekViewItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;editOccurrenceUICommandItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.EditOccurrenceUICommandItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barDockControlLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 62</value>
+  </data>
+  <data name="&gt;&gt;navigateViewBackwardItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.NavigateViewBackwardItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dateNavigator1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;editSeriesUICommandItem2.Name" xml:space="preserve">
+    <value>editSeriesUICommandItem2</value>
+  </data>
+  <data name="barDockControlBottom.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Name" xml:space="preserve">
+    <value>barDockControlBottom</value>
+  </data>
+  <data name="&gt;&gt;navigateViewBackwardItem1.Name" xml:space="preserve">
+    <value>navigateViewBackwardItem1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Name" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="barDockControlLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 346</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;resourcesTableAdapter.Name" xml:space="preserve">
+    <value>resourcesTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;printItem1.Name" xml:space="preserve">
+    <value>printItem1</value>
+  </data>
+  <data name="&gt;&gt;editAppointmentQueryItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.EditAppointmentQueryItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;deleteAppointmentsItem1.Name" xml:space="preserve">
+    <value>deleteAppointmentsItem1</value>
+  </data>
+  <data name="&gt;&gt;appointmentsBindingSource.Name" xml:space="preserve">
+    <value>appointmentsBindingSource</value>
+  </data>
+  <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>353, 334</value>
+  </data>
+  <data name="deleteSeriesItem1.Caption" xml:space="preserve">
+    <value>حذف    السلسلة</value>
+  </data>
+  <data name="&gt;&gt;navigatorBar1.Name" xml:space="preserve">
+    <value>navigatorBar1</value>
+  </data>
+  <data name="editSeriesUICommandItem1.Caption" xml:space="preserve">
+    <value>فتح السلسلة</value>
+  </data>
+  <data name="tableLayoutPanel3.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="barDockControlTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>822, 62</value>
+  </data>
+  <data name="&gt;&gt;switchToTimelineViewItem1.Name" xml:space="preserve">
+    <value>switchToTimelineViewItem1</value>
+  </data>
+  <data name="&gt;&gt;groupByResourceItem1.Name" xml:space="preserve">
+    <value>groupByResourceItem1</value>
+  </data>
+  <data name="repositoryItemDuration1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="switchCellsAutoHeightItem1.Caption" xml:space="preserve">
+    <value>خلية الذاتي في ارتفاع</value>
+  </data>
+  <data name="repositoryItemSpinEdit1.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;splitAppointmentItem1.Name" xml:space="preserve">
+    <value>splitAppointmentItem1</value>
+  </data>
+  <data name="barDockControlTop.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;schedulerBarController1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.SchedulerBarController, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionsBar1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.ActionsBar, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="printItem1.Caption" xml:space="preserve">
+    <value>طباعة سريعة</value>
+  </data>
+  <data name="tableLayoutPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Name" xml:space="preserve">
+    <value>barDockControlLeft</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemSpinEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit, DevExpress.XtraEditors.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;deleteOccurrenceItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.DeleteOccurrenceItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="openScheduleItem1.Caption" xml:space="preserve">
+    <value>فتح</value>
+  </data>
+  <data name="&gt;&gt;deleteOccurrenceItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.DeleteOccurrenceItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPageSetupItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.PrintPageSetupItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;baavocatDataSet.Name" xml:space="preserve">
+    <value>baavocatDataSet</value>
+  </data>
+  <data name="&gt;&gt;switchShowWorkTimeOnlyItem1.Name" xml:space="preserve">
+    <value>switchShowWorkTimeOnlyItem1</value>
+  </data>
+  <data name="&gt;&gt;dateNavigator1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="tableLayoutPanel3.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;switchCompressWeekendItem1.Name" xml:space="preserve">
+    <value>switchCompressWeekendItem1</value>
+  </data>
+  <data name="barDockControlTop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;saveScheduleItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.SaveScheduleItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barManager1.Name" xml:space="preserve">
+    <value>barManager1</value>
+  </data>
+  <data name="barDockControlRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 346</value>
+  </data>
+  <data name="&gt;&gt;editOccurrenceUICommandItem1.Name" xml:space="preserve">
+    <value>editOccurrenceUICommandItem1</value>
+  </data>
+  <data name="barDockControlBottom.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;resourcesBindingSource.Name" xml:space="preserve">
+    <value>resourcesBindingSource</value>
+  </data>
+  <data name="navigateViewForwardItem1.Caption" xml:space="preserve">
+    <value>إلى الأمام</value>
+  </data>
+  <data name="barDockControlLeft.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;groupByBar1.Name" xml:space="preserve">
+    <value>groupByBar1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;deleteSeriesItem2.Name" xml:space="preserve">
+    <value>deleteSeriesItem2</value>
+  </data>
+  <data name="&gt;&gt;changeSnapToCellsUIItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.ChangeSnapToCellsUIItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="deleteAppointmentsItem1.Caption" xml:space="preserve">
+    <value>حذف   </value>
+  </data>
+  <data name="&gt;&gt;arrangeBar1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.ArrangeBar, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gotoTodayItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.GotoTodayItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="switchCompressWeekendItem1.Caption" xml:space="preserve">
+    <value>ضغط عطلة نهاية الاسبوع</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;navigateViewForwardItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.NavigateViewForwardItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;viewZoomInItem1.Name" xml:space="preserve">
+    <value>viewZoomInItem1</value>
+  </data>
+  <data name="&gt;&gt;toggleRecurrenceItem1.Name" xml:space="preserve">
+    <value>toggleRecurrenceItem1</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;switchTimeScalesItem1.Name" xml:space="preserve">
+    <value>switchTimeScalesItem1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;switchShowWorkTimeOnlyItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.SwitchShowWorkTimeOnlyItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;printBar1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.PrintBar, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="repositoryItemSpinEdit1.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;printPreviewItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.PrintPreviewItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;resourcesBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemSpinEdit1.Name" xml:space="preserve">
+    <value>repositoryItemSpinEdit1</value>
+  </data>
+  <data name="&gt;&gt;switchToWeekViewItem1.Name" xml:space="preserve">
+    <value>switchToWeekViewItem1</value>
+  </data>
+  <data name="&gt;&gt;appointmentsBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="repositoryItemSpinEdit1.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;changeAppointmentLabelItem1.Name" xml:space="preserve">
+    <value>changeAppointmentLabelItem1</value>
+  </data>
+  <data name="editAppointmentQueryItem1.Caption" xml:space="preserve">
+    <value>فتح</value>
+  </data>
+  <data name="&gt;&gt;printBar1.Name" xml:space="preserve">
+    <value>printBar1</value>
+  </data>
+  <data name="&gt;&gt;changeAppointmentReminderItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.ChangeAppointmentReminderItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="gotoTodayItem1.Caption" xml:space="preserve">
+    <value>انتقل إلى &amp; اليوم</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 62</value>
+  </data>
+  <data name="&gt;&gt;xpCollection1.Name" xml:space="preserve">
+    <value>xpCollection1</value>
+  </data>
+  <data name="&gt;&gt;groupByResourceItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.GroupByResourceItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;editAppointmentQueryItem1.Name" xml:space="preserve">
+    <value>editAppointmentQueryItem1</value>
+  </data>
+  <data name="barDockControlBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;groupByDateItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.GroupByDateItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="saveScheduleItem1.Caption" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="&gt;&gt;appointmentsTableAdapter.Type" xml:space="preserve">
+    <value>WindowsFormsavocat050315.baavocatDataSetTableAdapters.AppointmentsTableAdapter, baavocatDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;viewZoomOutItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.ViewZoomOutItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navigatorBar1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.NavigatorBar, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;schedulerBarController1.Name" xml:space="preserve">
+    <value>schedulerBarController1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;changeAppointmentLabelItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.ChangeAppointmentLabelItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="splitAppointmentItem1.Caption" xml:space="preserve">
+    <value>الانقسام</value>
+  </data>
+  <data name="&gt;&gt;saveScheduleItem1.Name" xml:space="preserve">
+    <value>saveScheduleItem1</value>
+  </data>
+  <data name="&gt;&gt;schedulerStorage1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.SchedulerStorage, DevExpress.XtraScheduler.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;switchCellsAutoHeightItem1.Name" xml:space="preserve">
+    <value>switchCellsAutoHeightItem1</value>
+  </data>
+  <data name="&gt;&gt;viewZoomOutItem1.Name" xml:space="preserve">
+    <value>viewZoomOutItem1</value>
+  </data>
+  <data name="&gt;&gt;changeAppointmentReminderItem1.Name" xml:space="preserve">
+    <value>changeAppointmentReminderItem1</value>
+  </data>
+  <data name="schedulerControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupByBar1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.GroupByBar, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;schedulerControl1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;actionsBar1.Name" xml:space="preserve">
+    <value>actionsBar1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AgendaForm1</value>
+  </data>
+  <data name="tableLayoutPanel3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="dateNavigator1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50" /&gt;&lt;Rows Styles="Percent,59,73597,Percent,40,26403" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;layoutBar1.Name" xml:space="preserve">
+    <value>layoutBar1</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayoutPanel2" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,64,47688,Absolute,10" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;switchToDayViewItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.SwitchToDayViewItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;resourcesTableAdapter.Type" xml:space="preserve">
+    <value>WindowsFormsavocat050315.baavocatDataSetTableAdapters.ResourcesTableAdapter, baavocatDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;layoutBar1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.LayoutBar, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewItem1.Name" xml:space="preserve">
+    <value>printPreviewItem1</value>
+  </data>
+  <data name="&gt;&gt;bindingSource1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="tableLayoutPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;groupByDateItem1.Name" xml:space="preserve">
+    <value>groupByDateItem1</value>
+  </data>
+  <data name="repositoryItemSpinEdit1.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;newRecurringAppointmentItem1.Name" xml:space="preserve">
+    <value>newRecurringAppointmentItem1</value>
+  </data>
+  <data name="&gt;&gt;deleteOccurrenceItem1.Name" xml:space="preserve">
+    <value>deleteOccurrenceItem1</value>
+  </data>
+  <data name="&gt;&gt;baavocatDataSet.Type" xml:space="preserve">
+    <value>WindowsFormsavocat050315.baavocatDataSet, baavocatDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;deleteSeriesItem1.Name" xml:space="preserve">
+    <value>deleteSeriesItem1</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Name" xml:space="preserve">
+    <value>barDockControlTop</value>
+  </data>
+  <data name="&gt;&gt;toggleRecurrenceItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.ToggleRecurrenceItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>822, 346</value>
+  </data>
+  <data name="&gt;&gt;changeScaleWidthItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.ChangeScaleWidthItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;changeAppointmentStatusItem1.Name" xml:space="preserve">
+    <value>changeAppointmentStatusItem1</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;switchToGanttViewItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.SwitchToGanttViewItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;deleteSeriesItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.DeleteSeriesItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;newAppointmentItem1.Name" xml:space="preserve">
+    <value>newAppointmentItem1</value>
+  </data>
+  <data name="&gt;&gt;editSeriesUICommandItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.EditSeriesUICommandItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bindingSource1.Name" xml:space="preserve">
+    <value>bindingSource1</value>
+  </data>
+  <data name="&gt;&gt;groupByNoneItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.GroupByNoneItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="repositoryItemSpinEdit1.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="schedulerControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="switchShowWorkTimeOnlyItem1.Caption" xml:space="preserve">
+    <value>ساعات العمل</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;switchTimeScalesCaptionItem1.Name" xml:space="preserve">
+    <value>switchTimeScalesCaptionItem1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;schedulerControl1.Name" xml:space="preserve">
+    <value>schedulerControl1</value>
+  </data>
+  <data name="&gt;&gt;switchTimeScalesCaptionItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.SwitchTimeScalesCaptionItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;schedulerControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="tableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;switchCellsAutoHeightItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.SwitchCellsAutoHeightItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Name" xml:space="preserve">
+    <value>barDockControlRight</value>
+  </data>
+  <data name="&gt;&gt;openScheduleItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.OpenScheduleItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;switchToWeekViewItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.SwitchToWeekViewItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;deleteAppointmentsItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.DeleteAppointmentsItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="dateNavigator1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;switchToMonthViewItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.SwitchToMonthViewItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>822, 408</value>
+  </data>
+  <data name="&gt;&gt;schedulerControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.SchedulerControl, DevExpress.XtraScheduler.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;arrangeBar1.Name" xml:space="preserve">
+    <value>arrangeBar1</value>
+  </data>
+  <data name="&gt;&gt;newRecurringAppointmentItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.NewRecurringAppointmentItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barManager1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarManager, DevExpress.XtraBars.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="navigateViewBackwardItem1.Caption" xml:space="preserve">
+    <value>الى الوراء</value>
+  </data>
+  <data name="&gt;&gt;switchToGanttViewItem1.Name" xml:space="preserve">
+    <value>switchToGanttViewItem1</value>
+  </data>
+  <data name="barDockControlTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="printPreviewItem1.Caption" xml:space="preserve">
+    <value>طباعة ومعاينة</value>
+  </data>
+  <data name="barDockControlBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 408</value>
+  </data>
+  <data name="&gt;&gt;schedulerStorage1.Name" xml:space="preserve">
+    <value>schedulerStorage1</value>
+  </data>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>806, 340</value>
+  </data>
+  <data name="&gt;&gt;editSeriesUICommandItem1.Name" xml:space="preserve">
+    <value>editSeriesUICommandItem1</value>
+  </data>
+  <data name="&gt;&gt;changeScaleWidthItem1.Name" xml:space="preserve">
+    <value>changeScaleWidthItem1</value>
+  </data>
+  <data name="&gt;&gt;changeAppointmentStatusItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.ChangeAppointmentStatusItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;switchCompressWeekendItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.SwitchCompressWeekendItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;splitAppointmentItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.SplitAppointmentItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dateNavigator1.Name" xml:space="preserve">
+    <value>dateNavigator1</value>
+  </data>
+  <data name="repositoryItemSpinEdit1.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="schedulerControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="repositoryItemSpinEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemSpinEdit1.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v12.2">
+    <value>Numeric</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;editOccurrenceUICommandItem2.Name" xml:space="preserve">
+    <value>editOccurrenceUICommandItem2</value>
+  </data>
+  <data name="&gt;&gt;deleteOccurrenceItem2.Name" xml:space="preserve">
+    <value>deleteOccurrenceItem2</value>
+  </data>
+  <data name="&gt;&gt;viewZoomInItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.ViewZoomInItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="schedulerControl1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v12.2" name="DevExpress.Utils.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="repositoryItemDuration1.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.2">
+    <value>Combo</value>
+  </data>
+  <data name="tableLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 3</value>
+  </data>
+  <data name="&gt;&gt;switchTimeScalesItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraScheduler.UI.SwitchTimeScalesItem, DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <metadata name="schedulerStorage1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>280, 17</value>
+  </metadata>
+  <metadata name="baavocatDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>741, 17</value>
+  </metadata>
+  <metadata name="barManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>433, 17</value>
+  </metadata>
+  <metadata name="appointmentsTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>223, 56</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ar-TN</value>
+  </metadata>
+  <metadata name="xpCollection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="schedulerBarController1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>558, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="resourcesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>606, 56</value>
+  </metadata>
+  <metadata name="appointmentsBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="bindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>143, 17</value>
+  </metadata>
+  <metadata name="resourcesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>424, 56</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>70</value>
+  </metadata>
+</root>

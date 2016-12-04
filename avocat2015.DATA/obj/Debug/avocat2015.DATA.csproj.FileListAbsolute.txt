@@ -1,0 +1,13 @@
+C:\Users\chkaw\Desktop\WindowsFormsavocat050315(2)\avocat2015.DATA\bin\Debug\avocat2015.DATA.exe.config
+C:\Users\chkaw\Desktop\WindowsFormsavocat050315(2)\avocat2015.DATA\bin\Debug\avocat2015.DATA.exe
+C:\Users\chkaw\Desktop\WindowsFormsavocat050315(2)\avocat2015.DATA\bin\Debug\avocat2015.DATA.pdb
+C:\Users\chkaw\Desktop\WindowsFormsavocat050315(2)\avocat2015.DATA\obj\Debug\avocat2015.DATA.Properties.Resources.resources
+C:\Users\chkaw\Desktop\WindowsFormsavocat050315(2)\avocat2015.DATA\obj\Debug\avocat2015.DATA.csproj.GenerateResource.Cache
+C:\Users\chkaw\Desktop\WindowsFormsavocat050315(2)\avocat2015.DATA\obj\Debug\avocat2015.DATA.exe
+C:\Users\chkaw\Desktop\WindowsFormsavocat050315(2)\avocat2015.DATA\obj\Debug\avocat2015.DATA.pdb
+C:\Users\chkaw\Desktop\WindowsFormsavocat050315(2)\avocat2015.DATA\obj\Debug\avocat2015.DATA.csprojResolveAssemblyReference.cache
+C:\Users\chkaw\Desktop\WindowsFormsavocat050315(2) (2)\avocat2015.DATA\obj\Debug\avocat2015.DATA.csprojResolveAssemblyReference.cache
+C:\Users\chkaw\Desktop\WindowsFormsavocat050315(2) (2)\avocat2015.DATA\obj\Debug\avocat2015.DATA.Properties.Resources.resources
+C:\Users\chkaw\Desktop\WindowsFormsavocat050315(2) (2)\avocat2015.DATA\obj\Debug\avocat2015.DATA.csproj.GenerateResource.Cache
+C:\Users\chkaw\Desktop\WindowsFormsavocat050315(2) (2)\avocat2015.DATA\obj\Debug\avocat2015.DATA.exe
+C:\Users\chkaw\Desktop\WindowsFormsavocat050315(2) (2)\avocat2015.DATA\obj\Debug\avocat2015.DATA.pdb

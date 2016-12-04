@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsavocat050315", "WindowsFormsavocat050315\WindowsFormsavocat050315.csproj", "{93257D81-3C7B-4E6F-ABB0-79043769E6B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "avocat2015.DATA", "avocat2015.DATA\avocat2015.DATA.csproj", "{724F82B2-8F6B-4DCC-BC2B-588AFAB91839}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93257D81-3C7B-4E6F-ABB0-79043769E6B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93257D81-3C7B-4E6F-ABB0-79043769E6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93257D81-3C7B-4E6F-ABB0-79043769E6B5}.EasyTest|Any CPU.ActiveCfg = Release|Any CPU
+		{93257D81-3C7B-4E6F-ABB0-79043769E6B5}.EasyTest|Any CPU.Build.0 = Release|Any CPU
+		{93257D81-3C7B-4E6F-ABB0-79043769E6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93257D81-3C7B-4E6F-ABB0-79043769E6B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724F82B2-8F6B-4DCC-BC2B-588AFAB91839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724F82B2-8F6B-4DCC-BC2B-588AFAB91839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724F82B2-8F6B-4DCC-BC2B-588AFAB91839}.EasyTest|Any CPU.ActiveCfg = Release|Any CPU
+		{724F82B2-8F6B-4DCC-BC2B-588AFAB91839}.EasyTest|Any CPU.Build.0 = Release|Any CPU
+		{724F82B2-8F6B-4DCC-BC2B-588AFAB91839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724F82B2-8F6B-4DCC-BC2B-588AFAB91839}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
